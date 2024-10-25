@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normalização de banco de dados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="geral">
+    <div class="divisorias">
+        <h1>Introduão</h1>
+        <div class="desenvolvimento">
+            <h2>O que é a normalização de banco de dados e para o que ela serve?</h2>
+
+            <p>
+                Normalização é o processo de organização de dados em um banco de dados. Isso inclui a criação de tabelas e o estabelecimento de relações entre essas tabelas de acordo com as regras projetadas para proteger os dados e tornar o banco de dados mais flexível, eliminando a redundância e a dependência inconsistente.
+            </p>
+
+            <p>
+                Há algumas regras para normalização do banco de dados. Cada regra é chamada de "forma normal". Se a primeira regra for observada, diz-se que o banco de dados está na "primeira forma normal ". Se as três primeiras regras forem observadas, o banco de dados será considerado na "terceira forma normal". Embora outros níveis de normalização sejam possíveis, a terceira forma normal é considerada o nível mais alto necessário para a maioria dos aplicativos.
+            </p>
+
+            <p>
+                Uma forma normal é uma regra de deve ser aplicada na construção das tabelas do banco de dados para que estas fiquem bem projetadas. Segundo autores, existem 4 formas normais. Neste trabalho iremos falar sobre as 3 primeiras, sendo as principais: <br>
+                - 1ª forma normal <br>
+                - 2ª forma norma <br>
+                - 3ª forma normal <br>
+            </p>
+
+        </div>
+
+        <br>
+
+        <h1>Desenvolvimento</h1>
+        <div class="desenvolvimento">
+            <h2>Formas Normais</h2>
+
+            <p>
+                Com o banco de dados construído, devem-se aplicar as 3 formas normais em cada tabela, ou grupo de tabelas relacionadas. As formas têm uma ordem e são dependentes, isto é, para se aplicar a segunda norma, deve-se obrigatoriamente ter aplicado a primeira e assim por diante.
+            </p>
+
+            <br>
+
+            <h3>1ª Forma normal: Verificação de Tabelas Aninhadas.</h3>
+
+            <p>
+                O que é: A 1ª forma normal estabelece que cada célula de uma tabela deve conter apenas um valor atômico e indindivisível. Ou seja, não podem existir grupos repetidos de valores em uma única célula. 
+                <br>
+                Para uma tabela estar na primeira forma normal ela não deve conter tabelas aninhadas.
+            </p>
+
+            <p>
+                Um jeito fácil de verificar esta norma é fazer uma leitura dos campos das tabelas fazendo a pergunta: Este campo depende de qual?
+            </p>
+
+            <br>
+
+            <h3>2ª Forma Normal: Verificação de Dependências Parciais</h3>
+
+            <p>
+                O que é: A 2ª forma normal exige que todas as colunas não-chave dependam completamente da chave primária da tabela. Ou seja, não pode haver dependência parcial.
+                <br>
+                Para uma tabela estar na segunda formal, além de estar na primeira forma ela não deve conter dependências parciais.
+            </p>
+
+            <p>
+                Um jeito de verificar esta norma é refazer a leitura dos campos fazendo a pergunta: Este campo depende de toda a chave? Se não, temos uma dependência parcial.
+            </p>
+
+            <br>
+
+            <h3>3ª Forma Normal: Verificação de Dependências Transitivas</h3>
+
+            <p>
+                O que é: A 3ª forma normal exige que todas as colunas não-chave dependam diretamente da chave primária e não de outras colunas não-chave. Ou seja, não pode haver dependência transitiva.
+                <br>
+                Para uma tabela estar na segunda formal, além de estar na segunda forma ela não deve conter dependências transitivas.
+            </p>
+
+            <p>
+                Um jeito de verificar esta norma é refazer a leitura dos campos fazendo a pergunta: Este campo depende de outro que não seja a chave? Se Sim, temos uma dependência transitiva.
+            </p>    
+        </div>
+        
+        <br>
+
+        <h1>Conclusão</h1>
+        <div class="desenvolvimento">
+            <h2>Conclusão Pessoal</h2>
+            
+            <p>
+                *Inserir aqui a conclusão pessoal*
+            </p>
+        
+
+        </div>
+
+        <br>
+
+        <h1>Bibliografia</h1>
+        <div class="desenvolvimento">
+            <h2>Conteúdos utilizados para a pesquisa</h2>
+            
+            <p>
+                *Inserir aqui a Bibliografia*
+            </p>
+            
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>
