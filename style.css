@@ -1,0 +1,27 @@
+.body{
+    font-family: Arial, sans-serif; /* Fonte semelhante ao Word */
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */
+    margin: 0; /* Remove margens padrão */
+    padding: 20px; /* Adiciona padding para dar espaço interno */
+    background-color: #f8f8f8; /* Cor de fundo suave */
+    background-image: url(pngs/2020.png_860.png); /* Adicione a imagem de fundo */
+    background-size: cover; /* Cobre todo o fundo */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-position: center; /* Centraliza a imagem */
+}
+
+h1 {
+    font-size: 34px; /* Tamanho da fonte do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    border-bottom: 2px solid #000; /* Linha abaixo do título */
+    padding-bottom: 10px; /* Espaço interno abaixo do título */
+}
+
+p {
+    font-size: 20px; /* Tamanho da fonte do parágrafo */
+    margin-bottom: 15px; /* Espaço abaixo de cada parágrafo */
+    background-color: #fff; /* Fundo branco para o texto */
+    padding: 10px; /* Espaço interno ao redor do texto */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
